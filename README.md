@@ -1,5 +1,5 @@
-# <p align="center" style="color:#cb3349" >لن ابرء الذمة لأي شخص ياخذ حرفا او ملفا او اي شي من جميع ملفاتي
-# <p align="center" > تنصيب سورس وطن
+
+# <p align="center" > تنصيب سورس ماكسي
 # <p align="center" > ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
 # <p align="center" > ⤈ ↫ كود التنصيب الاول مع المكاتب ↬ ⤈
 # <p align="center" > `git clone https://github.com/FaRaAP16/Marksi2.git;cd Marksi2;chmod +x Marksi2.sh;./Marksi2.sh install`
