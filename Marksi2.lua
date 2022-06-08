@@ -3367,9 +3367,9 @@ if ChatType == 'pv' then
 if text == '/start' or text == '↫ رجوع ✯' then 
 local url,res = https.request('https://api-watan.ml/ch/joinch.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.Info_WaTaNTeaM ~= true then
-send(msg.chat_id_,msg.id_,'✯︙اهلا بك عزيزي ،\n✯︙اشترك في قناة السورس\n✯︙ثم ارسل الامر مره اخرى\n✯︙قناة السورس @Iraqiatheists1')   
-return false 
+if data.Ch_Member.Info_WaTaNTeaM ~= false then
+ send(msg.chat_id_,msg.id_,'✯︙اهلا بك عزيزي ،\n✯︙اشترك في قناة السورس\n✯︙ثم ارسل الامر مره اخرى\n✯︙قناة السورس @Iraqiatheists1')   
+return true
 end
 if SecondSudo(msg) then 
 local Sudo_Welcome = '✯︙مرحبا عزيزي المطور \n✯︙انت المطور الاساسي هنا \n✯︙اليك ازرار سورس ماركسي \n✯︙تستطيع التحكم بكل الاوامر فقط اضغط على الامر الذي تريد تنفيذه'
@@ -3386,9 +3386,9 @@ end end
 if text == '↫ تعيين كلايش الاوامر ✯' then 
 local url,res = https.request('https://api-watan.ml/ch/joinch.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.Info_WaTaNTeaM ~= true then
-send(msg.chat_id_,msg.id_,'✯︙اهلا بك عزيزي ،\n✯︙اشترك في قناة السورس\n✯︙ثم ارسل الامر مره اخرى\n✯︙قناة السورس @Iraqiatheists1')   
-return false 
+if data.Ch_Member.Info_WaTaNTeaM ~= false then
+ send(msg.chat_id_,msg.id_,'✯︙اهلا بك عزيزي ،\n✯︙اشترك في قناة السورس\n✯︙ثم ارسل الامر مره اخرى\n✯︙قناة السورس @Iraqiatheists1')   
+return true
 end
 if SecondSudo(msg) then 
 local Sudo_Welcome = '✯︙اهلا بك مجددا عزيزي المطور \n✯︙اليك الازرار الخاصه بتعديل وتغيير كلايش سورس ماركسي فقط اضغط على الامر الذي تريد تنفيذه'
@@ -3407,9 +3407,9 @@ end end
 if text == '↫ السورس ✯' then 
 local url,res = https.request('https://api-watan.ml/ch/joinch.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.Info_WaTaNTeaM ~= true then
-send(msg.chat_id_,msg.id_,'✯︙اهلا بك عزيزي ،\n✯︙اشترك في قناة السورس\n✯︙ثم ارسل الامر مره اخرى\n✯︙قناة السورس @Iraqiatheists1')   
-return false 
+if data.Ch_Member.Info_WaTaNTeaM ~= false then
+ send(msg.chat_id_,msg.id_,'✯︙اهلا بك عزيزي ،\n✯︙اشترك في قناة السورس\n✯︙ثم ارسل الامر مره اخرى\n✯︙قناة السورس @Iraqiatheists1')   
+return true
 end
 if SecondSudo(msg) then 
 local Sudo_Welcome = '✯︙اهلا بك مجددا عزيزي المطور \n✯︙اليك الازرار الخاصه بتحديث  سورس ماركسي فقط اضغط على الامر الذي تريد تنفيذه'
@@ -3426,9 +3426,9 @@ end end
 if text == '↫ الاحصائيات ✯' then 
 local url,res = https.request('https://api-watan.ml/ch/joinch.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.Info_WaTaNTeaM ~= true then
-send(msg.chat_id_,msg.id_,'✯︙اهلا بك عزيزي ،\n✯︙اشترك في قناة السورس\n✯︙ثم ارسل الامر مره اخرى\n✯︙قناة السورس @Iraqiatheists1')   
-return false 
+if data.Ch_Member.Info_WaTaNTeaM ~= false then
+ send(msg.chat_id_,msg.id_,'✯︙اهلا بك عزيزي ،\n✯︙اشترك في قناة السورس\n✯︙ثم ارسل الامر مره اخرى\n✯︙قناة السورس @Iraqiatheists1')   
+return true
 end
 if SecondSudo(msg) then 
 local Sudo_Welcome = '✯︙اهلا بك مجددا عزيزي المطور \n✯︙اليك الازرار الخاصه ب أحصائيات  سورس ماركسي فقط اضغط على الامر الذي تريد تنفيذه'
@@ -3446,9 +3446,9 @@ end end
 if text == '↫  المطورين ✯' then 
 local url,res = https.request('https://api-watan.ml/ch/joinch.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.Info_WaTaNTeaM ~= true then
-send(msg.chat_id_,msg.id_,'✯︙اهلا بك عزيزي ،\n✯︙اشترك في قناة السورس\n✯︙ثم ارسل الامر مره اخرى\n✯︙قناة السورس @Iraqiatheists1')   
-return false 
+if data.Ch_Member.Info_WaTaNTeaM ~= false then
+ send(msg.chat_id_,msg.id_,'✯︙اهلا بك عزيزي ،\n✯︙اشترك في قناة السورس\n✯︙ثم ارسل الامر مره اخرى\n✯︙قناة السورس @Iraqiatheists1')   
+return true
 end
 if SecondSudo(msg) then 
 local Sudo_Welcome = '✯︙اهلا بك مجددا عزيزي المطور \n✯︙اليك الازرار الخاصه ب المطورين لسورس ماركسي فقط اضغط على الامر الذي تريد تنفيذه'
@@ -3465,9 +3465,9 @@ end end
 if text == '↫ التفعيل والتعطيل ✯' then 
 local url,res = https.request('https://api-watan.ml/ch/joinch.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.Info_WaTaNTeaM ~= true then
-send(msg.chat_id_,msg.id_,'✯︙اهلا بك عزيزي ،\n✯︙اشترك في قناة السورس\n✯︙ثم ارسل الامر مره اخرى\n✯︙قناة السورس @Iraqiatheists1')   
-return false 
+if data.Ch_Member.Info_WaTaNTeaM ~= false then
+ send(msg.chat_id_,msg.id_,'✯︙اهلا بك عزيزي ،\n✯︙اشترك في قناة السورس\n✯︙ثم ارسل الامر مره اخرى\n✯︙قناة السورس @Iraqiatheists1')   
+return true
 end
 if SecondSudo(msg) then 
 local Sudo_Welcome = '✯︙اهلا بك مجددا عزيزي المطور \n✯︙اليك الازرار الخاصه ب التفعيل والتعطيل لسورس ماركسي فقط اضغط على الامر الذي تريد تنفيذه'
@@ -3486,9 +3486,9 @@ end end
 if text == '↫ الاذاعه ✯' then 
 local url,res = https.request('https://api-watan.ml/ch/joinch.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.Info_WaTaNTeaM ~= true then
-send(msg.chat_id_,msg.id_,'✯︙اهلا بك عزيزي ،\n✯︙اشترك في قناة السورس\n✯︙ثم ارسل الامر مره اخرى\n✯︙قناة السورس @Iraqiatheists1')   
-return false 
+if data.Ch_Member.Info_WaTaNTeaM ~= false then
+ send(msg.chat_id_,msg.id_,'✯︙اهلا بك عزيزي ،\n✯︙اشترك في قناة السورس\n✯︙ثم ارسل الامر مره اخرى\n✯︙قناة السورس @Iraqiatheists1')   
+return true
 end
 if SecondSudo(msg) then 
 local Sudo_Welcome = '✯︙اهلا بك مجددا عزيزي المطور \n✯︙اليك الازرار الخاصه بالاذاعه لسورس ماركسي فقط اضغط على الامر الذي تريد تنفيذه'
@@ -3505,9 +3505,9 @@ end end
 if text == '↫ العام ✯' then 
 local url,res = https.request('https://api-watan.ml/ch/joinch.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.Info_WaTaNTeaM ~= true then
-send(msg.chat_id_,msg.id_,'✯︙اهلا بك عزيزي ،\n✯︙اشترك في قناة السورس\n✯︙ثم ارسل الامر مره اخرى\n✯︙قناة السورس @Iraqiatheists1')   
-return false 
+if data.Ch_Member.Info_WaTaNTeaM ~= false then
+ send(msg.chat_id_,msg.id_,'✯︙اهلا بك عزيزي ،\n✯︙اشترك في قناة السورس\n✯︙ثم ارسل الامر مره اخرى\n✯︙قناة السورس @Iraqiatheists1')   
+return true
 end
 if SecondSudo(msg) then 
 local Sudo_Welcome = '✯︙اهلا بك مجددا عزيزي المطور \n✯︙اليك الازرار الخاصه بالعام لسورس ماركسي فقط اضغط على الامر الذي تريد تنفيذه'
@@ -3523,9 +3523,9 @@ end end
 if text == '↫ ردود الخاص ✯' then 
 local url,res = https.request('https://api-watan.ml/ch/joinch.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.Info_WaTaNTeaM ~= true then
-send(msg.chat_id_,msg.id_,'✯︙اهلا بك عزيزي ،\n✯︙اشترك في قناة السورس\n✯︙ثم ارسل الامر مره اخرى\n✯︙قناة السورس @Iraqiatheists1')   
-return false 
+if data.Ch_Member.Info_WaTaNTeaM ~= false then
+ send(msg.chat_id_,msg.id_,'✯︙اهلا بك عزيزي ،\n✯︙اشترك في قناة السورس\n✯︙ثم ارسل الامر مره اخرى\n✯︙قناة السورس @Iraqiatheists1')   
+return true
 end
 if SecondSudo(msg) then 
 local Sudo_Welcome = '✯︙اهلا بك مجددا عزيزي المطور \n✯︙اليك الازرار الخاصه بردود الخاص لسورس ماركسي فقط اضغط على الامر الذي تريد تنفيذه'
@@ -3540,9 +3540,9 @@ end end
 if text == '↫ الاشتراك الاجباري ✯' then 
 local url,res = https.request('https://api-watan.ml/ch/joinch.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.Info_WaTaNTeaM ~= true then
-send(msg.chat_id_,msg.id_,'✯︙اهلا بك عزيزي ،\n✯︙اشترك في قناة السورس\n✯︙ثم ارسل الامر مره اخرى\n✯︙قناة السورس @Iraqiatheists1')   
-return false 
+if data.Ch_Member.Info_WaTaNTeaM ~= false then
+ send(msg.chat_id_,msg.id_,'✯︙اهلا بك عزيزي ،\n✯︙اشترك في قناة السورس\n✯︙ثم ارسل الامر مره اخرى\n✯︙قناة السورس @Iraqiatheists1')   
+return true
 end
 if SecondSudo(msg) then 
 local Sudo_Welcome = '✯︙اهلا بك مجددا عزيزي المطور \n✯︙اليك الازرار الخاصه بالاشتراك الاجباري لسورس ماركسي فقط اضغط على الامر الذي تريد تنفيذه'
@@ -3559,9 +3559,9 @@ end end
 if text == '↫ الاوامر الخدميه ✯' or text == '/play' or text == '↫  رجوع  ✯' or text == 'اوامر الخدميه' or text == '/free' then
 local url,res = https.request('https://api-watan.ml/ch/joinch.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.Info_WaTaNTeaM ~= true then
-send(msg.chat_id_,msg.id_,'✯︙اهلا بك عزيزي ،\n✯︙اشترك في قناة السورس\n✯︙ثم ارسل الامر مره اخرى\n✯︙قناة السورس @Iraqiatheists1')   
-return false 
+if data.Ch_Member.Info_WaTaNTeaM ~= false then
+ send(msg.chat_id_,msg.id_,'✯︙اهلا بك عزيزي ،\n✯︙اشترك في قناة السورس\n✯︙ثم ارسل الامر مره اخرى\n✯︙قناة السورس @Iraqiatheists1')   
+return true
 end
 local Sudo_Welcome = '✯︙اهلا بك مجددا عزيزي \n✯︙اليك الازرار الخاصه بالاوامر الخدميه الخاصه بسورس ماركسي فقط اضغط على الامر الذي تريد تنفيذه'
 local key = {
@@ -3577,9 +3577,9 @@ end
 if text == '↫ اوامر التسليه ✯' then 
 local url,res = https.request('https://api-watan.ml/ch/joinch.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.Info_WaTaNTeaM ~= true then
-send(msg.chat_id_,msg.id_,'✯︙اهلا بك عزيزي ،\n✯︙اشترك في قناة السورس\n✯︙ثم ارسل الامر مره اخرى\n✯︙قناة السورس @Iraqiatheists1')   
-return false 
+if data.Ch_Member.Info_WaTaNTeaM ~= false then
+ send(msg.chat_id_,msg.id_,'✯︙اهلا بك عزيزي ،\n✯︙اشترك في قناة السورس\n✯︙ثم ارسل الامر مره اخرى\n✯︙قناة السورس @Iraqiatheists1')   
+return true
 end
 local Sudo_Welcome = '✯︙اهلا بك مجددا عزيزي \n✯︙اليك الازرار الخاصه بأوامر التسليه الخاصه بسورس ماركسي فقط اضغط على الامر الذي تريد تنفيذه'
 local key = {
@@ -3595,9 +3595,9 @@ end
 if text == '↫ الاوامر الخدميه  ✯' then 
 local url,res = https.request('https://api-watan.ml/ch/joinch.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.Info_WaTaNTeaM ~= true then
-send(msg.chat_id_,msg.id_,'✯︙اهلا بك عزيزي ،\n✯︙اشترك في قناة السورس\n✯︙ثم ارسل الامر مره اخرى\n✯︙قناة السورس @Iraqiatheists1')   
-return false 
+if data.Ch_Member.Info_WaTaNTeaM ~= false then
+ send(msg.chat_id_,msg.id_,'✯︙اهلا بك عزيزي ،\n✯︙اشترك في قناة السورس\n✯︙ثم ارسل الامر مره اخرى\n✯︙قناة السورس @Iraqiatheists1')   
+return true
 end
 local Sudo_Welcome = '✯︙اهلا بك مجددا عزيزي \n✯︙اليك الازرار الخاصه بالاوامر الخدميه الخاصه بسورس ماركسي فقط اضغط على الامر الذي تريد تنفيذه'
 local key = {
@@ -3614,9 +3614,9 @@ end
 if text == '↫ اوامر النسب ✯' then 
 local url,res = https.request('https://api-watan.ml/ch/joinch.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.Info_WaTaNTeaM ~= true then
-send(msg.chat_id_,msg.id_,'✯︙اهلا بك عزيزي ،\n✯︙اشترك في قناة السورس\n✯︙ثم ارسل الامر مره اخرى\n✯︙قناة السورس @Iraqiatheists1')   
-return false 
+if data.Ch_Member.Info_WaTaNTeaM ~= false then
+ send(msg.chat_id_,msg.id_,'✯︙اهلا بك عزيزي ،\n✯︙اشترك في قناة السورس\n✯︙ثم ارسل الامر مره اخرى\n✯︙قناة السورس @Iraqiatheists1')   
+return true
 end
 local Sudo_Welcome = '✯︙اهلا بك مجددا عزيزي \n✯︙اليك الازرار الخاصه بأوامر النسب الخاصه بسورس ماركسي فقط اضغط على الامر الذي تريد تنفيذه'
 local key = {
@@ -3632,9 +3632,9 @@ end
 if text == '↫ العاب ✯' then 
 local url,res = https.request('https://api-watan.ml/ch/joinch.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.Info_WaTaNTeaM ~= true then
-send(msg.chat_id_,msg.id_,'✯︙اهلا بك عزيزي ،\n✯︙اشترك في قناة السورس\n✯︙ثم ارسل الامر مره اخرى\n✯︙قناة السورس @Iraqiatheists1')   
-return false 
+if data.Ch_Member.Info_WaTaNTeaM ~= false then
+ send(msg.chat_id_,msg.id_,'✯︙اهلا بك عزيزي ،\n✯︙اشترك في قناة السورس\n✯︙ثم ارسل الامر مره اخرى\n✯︙قناة السورس @Iraqiatheists1')   
+return true
 end
 local Sudo_Welcome = '✯︙اهلا بك مجددا عزيزي \n✯︙اليك الازرار الخاصه بألعاب سورس ماركسي فقط اضغط على اللعبه الذي تريد لعبها'
 local key = {
@@ -3655,9 +3655,9 @@ end
 if text == '/start' then  
 local url,res = https.request('https://api-watan.ml/ch/joinch.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.Info_WaTaNTeaM ~= true then
-send(msg.chat_id_,msg.id_,'✯︙اهلا بك عزيزي ،\n✯︙اشترك في قناة السورس\n✯︙ثم ارسل الامر مره اخرى\n✯︙قناة السورس @Iraqiatheists1')   
-return false 
+if data.Ch_Member.Info_WaTaNTeaM ~= false then
+ send(msg.chat_id_,msg.id_,'✯︙اهلا بك عزيزي ،\n✯︙اشترك في قناة السورس\n✯︙ثم ارسل الامر مره اخرى\n✯︙قناة السورس @Iraqiatheists1')   
+return true
 end
 if not DevAbs:get(WaTaN2..'Abs:Start:Time'..msg.sender_user_id_) then
 tdcli_function({ID="GetUser",user_id_=DevId},function(arg,dp)
@@ -6510,7 +6510,7 @@ end
 if text == 'السورس' or text == 'سورس' or text == 'يا سورس' or text == 'ياسورس' then
 local url,res = https.request('https://api-watan.ml/ch/joinch.php?id='..msg.sender_user_id_)
 data = JSON.decode(url)
-if data.Ch_Member.Info_WaTaNTeaM ~= true then
+if data.Ch_Member.Info_WaTaNTeaM ~= false then
 Dev_Abs(msg.chat_id_,msg.id_,'✯︙اهلا بك عزيزي ،\n✯︙اشترك في قناة السورس\n✯︙ثم ارسل الامر مره اخرى\n✯︙قناة السورس @Iraqiatheists1')   
 return false 
 end
